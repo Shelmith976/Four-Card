@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    border: 0;
+    text-decoration: none;
+}
+body{
+    background-color: whitesmoke;
+}
+.flex-container{
+    background: whitesmoke;
+    display: flex;
+    flex-wrap: nowrap;
+    height: 400px;
+    text-align: center;
+    align-items: center;
+    /* flex-direction: row; */
+    justify-content: space-around;
+}
+
+.Supervisor{
+    background-color: white;
+    border-top: solid red;
+    display: flexbox;
+    margin: 30px;margin-right: 5%;
+
+    padding: 15px;
+    text-align: left;
+    width: 25%;
+    .img{
+        display: flex;
+        justify-content:end;
+        text-align:right;
+    }
+}
+.mid{
+    margin-right: 5%;
+    width: 25%;
+    
+}
+.TeamBiulder{
+    margin-top: 20%;
+    text-align: left;
+    background-color: white;
+    margin-bottom: 15px;
+    border-top: solid springgreen;
+    padding: 15px;
+}
+.Karma{
+    
+    text-align: left;
+    background-color: white;
+    border-top: solid;
+    display: flexbox;
+    padding: 15px;
+}
+.Calculator{
+    width: 25%;
+    text-align: left;
+    background-color: white;
+    border-top: solid teal;
+    display: inline-flexbox;
+    padding: 15px;
+}
+.Header{
+    margin-top:10% ;
+    text-align: center;
+}
+.head{
+    color: grey;
+}
